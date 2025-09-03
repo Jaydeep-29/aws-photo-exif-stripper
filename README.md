@@ -16,3 +16,7 @@
 ## Testing
 - Upload .jpg to Bucket A.
 - Confirm EXIF is stripped by downloading same-path file from Bucket B.
+
+## Notes
+- For this assessment, environment separation (e.g., dev, prod) and remote Terraform backend configuration have been omitted to keep the solution straightforward and focused on core requirements.
+- In a production setting, these features would be included to support multi-environment deployments, state management, and collaboration.
